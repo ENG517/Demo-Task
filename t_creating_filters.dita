@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_filter">
+  <title>Creating a Filter in Gmail</title>
+  <shortdesc>Create mail filters based on characteristics of emails that you regularly receive.</shortdesc>
+  <taskbody>
+    <prereq>Change your security settings to allow automated processing of incoming mail.</prereq>
+    <context>
+      <p>
+        Gmail enables you to create a filter based on characteristics of emails already in your inbox. This topic covers how to select template emails for the filter and then apply filter settings.
+      </p>
+    </context>
+    <steps>
+      <step>
+          <cmd>Open Gmail.</cmd>
+      </step>
+      <step>
+          <cmd>In the search box at the top, click the <uicontrol>Search Options</uicontrol> icon. <image href="search-options.png" scale="25"></image></cmd>
+      </step>
+      <step>
+          <cmd>Enter your search criteria (figure 1).</cmd>
+          <info><note type="tip">If you want to check that your search worked correctly, see what emails show up by clicking <uicontrol>Search</uicontrol>.</note></info>
+          <stepresult><image href="search-criteria.png" scale="35"></image></stepresult>
+      </step>
+      <step>
+          <cmd>At the bottom of the search window, click <uicontrol>Create filter</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>Choose what you’d like the filter to do (figure 2).</cmd>
+        <choicetable>
+            <chhead>
+                <choptionhd>Filter</choptionhd>
+                <chdeschd>Function</chdeschd>
+            </chhead>
+            <chrow>
+                <choption>Skip the inbox</choption>
+                <chdesc>message is archived</chdesc>
+            </chrow>
+            <chrow>
+                <choption>Star it</choption>
+                <chdesc>message is marked as important</chdesc>
+            </chrow>
+            <chrow>
+                <choption>Apply the label ------</choption>
+                <chdesc>message is given a label of your choosing</chdesc>
+            </chrow>
+            <chrow>
+                <choption>Forward it</choption>
+                <chdesc>message is sent to another address (e.g., home email)</chdesc>
+            </chrow>
+            <chrow>
+                <choption>Never send to spam</choption>
+                <chdesc>message arrives in inbox</chdesc>
+            </chrow>
+            <chrow>
+                <choption>Delete it</choption>
+                <chdesc>message is deleted before arriving in the inbox</chdesc>
+            </chrow>
+        </choicetable>
+          <stepresult><image href="filter-options.png" scale="35"></image></stepresult>
+      </step>
+      <step>
+          <cmd>Click <uicontrol>Create Filter</uicontrol>.</cmd>
+      </step>
+    </steps>
+    <result>
+        <p>
+          When you create a filter to forward messages, only new messages will be affected. Additionally, when someone replies to a message you've filtered, the reply will only be filtered if it meets the same search criteria.
+        </p>
+    </result>
+  </taskbody>
+</task>
