@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="student_services_add_address">
+  <title>Add an Address</title>
+  <!-- Add shortdesc, context, etc. -->
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Select your Student Homepage</cmd>
+      </step>
+      <step>
+        <cmd>Select the ‘Personal Information’ tile</cmd>
+      </step>
+      <step>
+        <cmd></cmd>
+      </step>
+      <step>
+        <cmd></cmd>
+      </step>
+      <step>
+        <cmd></cmd>
+      </step>
+      <step>
+        <cmd>Select the green <uicontrol>Save</uicontrol> button</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>
